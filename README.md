@@ -33,7 +33,7 @@ todo-app/
 ├── index.css    # Stylesheet for UI design
 ├── script.js    # JavaScript logic
 └── images/      # Icons and assets
-
+```
 
 ---
 
@@ -65,5 +65,6 @@ todo-app/
 - Convert the application into a **React-based version**  
 
 ---
+
 
 
