@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List App</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
+
 <body>
+    <!-- Navbar -->
+    <nav>
+        <ul class="topnav">
+            <li class="topnavli">
+                <a href="#home">
+                    <img src="images/icon-1.png" alt="To-do icon" width="60" height="30">
+                </a>
+            </li>
+            <li class="topnavli"><a class="active" href="#home">To-Do List</a></li>
+            <li class="topnavli"><a href="#news">News</a></li>
+            <li class="topnavli"><a href="#contact">Contact</a></li>
+            <li class="topnavli right"><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
     <div class="container">
         <div class="todo-app">
-            <h2>To-Do List <img src="images/icon.png"></h2>
+            <h2>
+                <img src="images/icon-1.png" alt="To-do icon" width="60" height="30">
+                To-Do List
+            </h2>
+
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add your text">
-                <button onclick="addTask()">Add</button>
+                <button type="button" onclick="addTask()">Add</button>
             </div>
 
             <ul id="list-container"></ul>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>

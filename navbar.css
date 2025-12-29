@@ -1,0 +1,37 @@
+/* Navbar container */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar items */
+.topnav .topnavli {
+  float: left;
+}
+
+/* Navbar links */
+.topnav .topnavli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.topnav .topnavli a:hover {
+  background-color: #575757;
+}
+
+/* Active link */
+.topnav .topnavli a.active {
+  background-color: #04AA6D;
+}
+
+.topnav li.right {
+  float: right;
+}
