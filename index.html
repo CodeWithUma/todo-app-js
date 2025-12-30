@@ -7,28 +7,37 @@
     <title>To-Do List App</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="addText.css">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav>
         <ul class="topnav">
-            <li class="topnavli">
+            <li class="topnavli logo">
                 <a href="#home">
-                    <img src="images/icon-1.png" alt="To-do icon" width="60" height="30">
+                    <img src="images/icon-1.png" alt="To-do icon" >
                 </a>
             </li>
-            <li class="topnavli"><a class="active" href="#home">To-Do List</a></li>
-            <li class="topnavli"><a href="#news">News</a></li>
-            <li class="topnavli"><a href="#contact">Contact</a></li>
-            <li class="topnavli right"><a href="#about">About</a></li>
+            <li class="topnavli"><a href="#home">To-Do List</a></li>
+            <!-- COMING SOON -->
+            <!-- <li class="topnavli right"><a href="#profile">Profile</a></li>
+            <li class="topnavli right"><a href="#darkmode">Dark Mode</a></li>
+            <li class="topnavli right"><a href="#refresh">Refresh</a></li> -->
         </ul>
     </nav>
+
+    <div class="container1">
+        <div class="row1">
+            <input type="text" id="input-box" placeholder="Add your text">
+            <button type="button" onclick="addTask()">Add</button>
+        </div>
+    </div>
 
     <!-- Main Container -->
     <div class="container">
         <div class="todo-app">
-            <h2>
+            <!-- <h2>
                 <img src="images/icon-1.png" alt="To-do icon" width="60" height="30">
                 To-Do List
             </h2>
@@ -36,7 +45,7 @@
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add your text">
                 <button type="button" onclick="addTask()">Add</button>
-            </div>
+            </div> -->
 
             <ul id="list-container"></ul>
         </div>

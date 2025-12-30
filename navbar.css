@@ -4,12 +4,31 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: grey;
 }
 
 /* Navbar items */
 .topnav .topnavli {
   float: left;
+  padding: 4px;
+  margin-right: 8px;
+}
+
+/* Image */
+/* Logo container */
+.topnav .logo a {
+  display: flex !important;
+  align-items: center;
+  padding: 2px !important;
+  margin-right: -20px;
+  margin-top: 2px;
+}
+
+/* Logo image */
+.topnav .logo img {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 /* Navbar links */
@@ -19,18 +38,19 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
 }
 
 /* Hover effect */
 .topnav .topnavli a:hover {
   background-color: #575757;
+  border-radius: 40px;
 }
 
 /* Active link */
-.topnav .topnavli a.active {
+/* .topnav .topnavli a.active {
   background-color: #04AA6D;
-}
+} */
 
 .topnav li.right {
   float: right;
